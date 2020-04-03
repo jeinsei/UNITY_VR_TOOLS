@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{2DED8ED5-FDBE-0D25-E90E-3501F1D813D1}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_SCRIPTS/ReticleParameter.cs">
+    <Files>
+      <File FileName="Assets/_SCRIPTS/GazeClickButton.cs" Line="4" Column="19" />
+      <File FileName="Assets/_SCRIPTS/Teleportation.cs" Line="19" Column="8" />
+      <File FileName="Assets/_SCRIPTS/ReticleParameter.cs" Line="11" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
