@@ -62,11 +62,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_SCRIPTS\DebugTest.cs" />
-    <Compile Include="Assets\_SCRIPTS\GazeClickButton.cs" />
-    <Compile Include="Assets\_SCRIPTS\ReticleParameter.cs" />
-    <Compile Include="Assets\_SCRIPTS\Teleportation.cs" />
-    <Compile Include="Assets\_SCRIPTS\TeleportItem.cs" />
+    <Compile Include="Assets\_SCRIPTS\VRGazeClickButton.cs" />
+    <Compile Include="Assets\_SCRIPTS\VRInteractions.cs" />
+    <Compile Include="Assets\_SCRIPTS\VRReticleParameter.cs" />
+    <Compile Include="Assets\_SCRIPTS\VRTeleportation.cs" />
+    <Compile Include="Assets\_SCRIPTS\VRTeleportItem.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoObjectController6DoF.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoSeeThroughController.cs" />
     <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerInput.cs" />
