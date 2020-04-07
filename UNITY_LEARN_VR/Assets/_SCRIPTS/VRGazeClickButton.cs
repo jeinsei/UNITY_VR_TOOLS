@@ -12,6 +12,7 @@ public class VRGazeClickButton : MonoBehaviour
     public EventTrigger eventTrigger;
     public VRReticleParameter reticleParameter;
     public UnityEvent customOnClick;
+    public bool activeBoolButtton = false;
 
 
     private void Awake()
@@ -40,9 +41,8 @@ public class VRGazeClickButton : MonoBehaviour
     void Update()
     {
         // si statut true alors timer basé sur le temps, rempli le fillAmount de l'image
-        if (reticleParameter.gvrStatuts == true)
+        if (activeBoolButtton == true)
         {
-      
             reticleParameter.mainTarget.GetComponent<Image>().sprite = reticleParameter.hitButton;
             reticleParameter.gvrTimer += Time.deltaTime;
             reticleParameter.mainTarget.fillAmount = reticleParameter.gvrTimer / reticleParameter.waitingTime;
@@ -52,22 +52,20 @@ public class VRGazeClickButton : MonoBehaviour
                 customOnClick.Invoke();
             }
         }
-        // si Timer est supérieur au temps donné, alors il déclenche le click en EventSytem
-       
     }
 
     public void OnPointerEnter(PointerEventData data)
     {
         Debug.Log("ENTER called.");
-        reticleParameter.gvrStatuts = true;
 
-        
+        activeBoolButtton = true;
     }
 
     public void OnPointerExit(PointerEventData data)
     {
         Debug.Log("EXIT called.");
-        reticleParameter.gvrStatuts = false;
+ 
+        activeBoolButtton = false;
         reticleParameter.gvrTimer = 0f;
         reticleParameter.mainTarget.fillAmount = 1;
     }

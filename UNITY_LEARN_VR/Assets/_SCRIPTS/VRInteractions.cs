@@ -2,26 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DebugTest : MonoBehaviour
+public class VRInteractions : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public void FirstInteraction()
     {
-        
+        Debug.Log("First Interaction");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SecondInteraction()
     {
-        
-    }
-
-    public void DebugOne()
-    {
-        Debug.Log("one");
-    }
-    public void DebugTwo()
-    {
-        Debug.Log("two");
+        Debug.Log("Second Interaction");
     }
 }

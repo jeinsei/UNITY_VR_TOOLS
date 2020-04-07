@@ -25,7 +25,7 @@ public class VRReticleParameter : MonoBehaviour
             Debug.DrawRay(raycastCamera.transform.position, raycastCamera.transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
             Debug.Log("Did Hit");
             mainTarget.GetComponent<Image>().sprite = hitOn;
-            mainTarget.GetComponent<Animator>().Play("hitOn");
+           // mainTarget.GetComponent<Animator>().Play("hitOn");
 
         }
         else
@@ -33,7 +33,7 @@ public class VRReticleParameter : MonoBehaviour
             Debug.DrawRay(raycastCamera.transform.position, raycastCamera.transform.TransformDirection(Vector3.forward) * 1000, Color.white);
             Debug.Log("Did not Hit");
             mainTarget.GetComponent<Image>().sprite = hitOff;
-            mainTarget.GetComponent<Animator>().Play("hitOff");
+           // mainTarget.GetComponent<Animator>().Play("hitOff");
             mainTarget.fillAmount = 1;
         }
 
