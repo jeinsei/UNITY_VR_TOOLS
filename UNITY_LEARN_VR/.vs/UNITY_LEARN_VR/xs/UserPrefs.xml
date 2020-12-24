@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{2DED8ED5-FDBE-0D25-E90E-3501F1D813D1}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_SCRIPTS/VRGazeClickButton.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_SCRIPTS/VRInteractions.cs">
     <Files>
       <File FileName="Assets/_SCRIPTS/VRInteractions.cs" Line="18" Column="1" />
-      <File FileName="Assets/_SCRIPTS/VRGazeClickButton.cs" Line="74" Column="2" />
+      <File FileName="Assets/_SCRIPTS/VRGazeClickButton.cs" Line="12" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
